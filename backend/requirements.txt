@@ -1,8 +1,8 @@
-fastapi==0.95.1
-uvicorn[standard]==0.22.0
-pydantic==1.10.8
-sqlalchemy==2.0.12
-python-dotenv==1.0.0
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+python-dotenv
 tensorflow  # For AI models
 matplotlib   # For plotting
 transformers
