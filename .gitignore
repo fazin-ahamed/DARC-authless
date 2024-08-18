@@ -1,0 +1,63 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+.env
+*.env
+
+# Python (Backend)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+instance/
+.venv/
+env/
+venv/
+pyvenv.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# FastAPI specific
+/migrations/
+
+# Node.js (Frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/build/
+.cache/
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel/
+out/
+.vscode/
+
+# MacOS
+*.DS_Store
+
+# Editor/IDE-specific
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+*.cover
+*.lcov
+coverage-final.json
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# Dist and build files
+dist/
+build/
+public/
